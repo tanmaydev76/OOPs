@@ -3,7 +3,7 @@ public class app {
     public static void main(String[] args) {
         
         // //Default constructor
-        
+
         // Student A = new Student();
         // A.id = 5;
         // A.age =19;
@@ -26,8 +26,10 @@ public class app {
         System.out.println(A.name);
         System.out.println(A.nos);
 
-        A.bunk();
-        A.sleep();
-        A.study();
+        // A.bunk();
+        // A.sleep();
+        // A.study();
+
+        // Copy constructor
     }
 }
