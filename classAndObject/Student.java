@@ -4,14 +4,19 @@ public class Student {
      public int age;
      public String name; 
      public int nos;
+     private String gf;
       
+     public String getName(){
+        return this.name;
+     }
      // paramitarised Constructor// attr -> garbage  
-     public Student(int id, int age, String name, int nos) {
+     public Student(int id, int age, String name, int nos, String gf) {
         System.out.println("student default ctor called ");
         this.id = id;
         this.age = age;
         this.name = name;
         this.nos = nos;
+        this.gf = gf;
      }
 
      // methods and behaviours
@@ -26,4 +31,10 @@ public class Student {
      public void bunk() {
            System.out.println(name + " is bunking");
      }
+
+     private void gfChatting() {
+           System.out.println("chatting with " + gf);
+     }
+
+     
 }

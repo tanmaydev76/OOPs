@@ -19,17 +19,23 @@ public class app {
         // A.study();
 
        // Paramitraised constructo    
-       Student A = new Student(1,20,"rahul",6);
+       Student A = new Student(1,20,"rahul",6,"unknown");
         
         System.out.println(A.id);
         System.out.println(A.age);
         System.out.println(A.name);
         System.out.println(A.nos);
+        //  System.out.println(A.gf);       // Private information 
+        System.out.println(A.getName());   // Accesed private info using the get class method
 
-        // A.bunk();
-        // A.sleep();
-        // A.study();
+        // decalred publically 
+        A.bunk();
+        A.sleep();
+        A.study();
 
-        // Copy constructor
+        // declared in a private class
+        //A.gfChatting();
+
+        // If we want to access private info we can use by the get method
     }
 }
