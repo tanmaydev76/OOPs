@@ -1,13 +1,22 @@
 public class Student {
      // attributes
      public int id;
-     public int age;
+     private int age;
      public String name; 
      public int nos;
      private String gf;
       
      public String getName(){
         return this.name;
+     }
+
+     // Gettter setter method for accesig and updating private data members
+     public int getAge(){
+        return this.age;
+     }
+
+     public void setAge(int a) {
+         this.age = a;
      }
      // paramitarised Constructor// attr -> garbage  
      public Student(int id, int age, String name, int nos, String gf) {
