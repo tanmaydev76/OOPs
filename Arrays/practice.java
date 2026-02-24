@@ -57,5 +57,6 @@ public class practice {
             }
         }
         System.out.println("min element is " + Min);
+        sc.close();
     }
 }
