@@ -1,4 +1,4 @@
-public class index {
+public class index1 {
     public static void main(String[] args) {
         // array declaration
         int arr[];

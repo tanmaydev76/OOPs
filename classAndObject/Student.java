@@ -41,9 +41,9 @@ public class Student {
            System.out.println(name + " is bunking");
      }
 
-     private void gfChatting() {
-           System.out.println("chatting with " + gf);
-     }
+//      private void gfChatting() {
+//            System.out.println("chatting with " + gf);
+//      }
 
      
 }
